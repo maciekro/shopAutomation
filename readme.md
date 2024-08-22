@@ -1,6 +1,6 @@
 Test Cases:
 
-Test Case 1: Register User \
+Test Case 1: Register User
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
