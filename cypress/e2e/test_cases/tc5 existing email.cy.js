@@ -9,5 +9,4 @@ describe(' Register User with existing email', ()=>{
         cy.get('[data-qa="signup-button"]').click()
         cy.get('.signup-form > form > p').should('be.visible').contains('Email Address already exist!')
     })
-
 })
