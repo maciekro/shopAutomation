@@ -103,7 +103,6 @@ Test Case 9: Search Product
 5. Verify user is navigated to ALL PRODUCTS page successfully
 6. Enter product name in search input and click search button
 7. Verify 'SEARCHED PRODUCTS' is visible
-8. Verify all the products related to search are visible
 
 Test Case 10: Verify Subscription in home page
 1. Launch browser
@@ -134,7 +133,6 @@ Test Case 12: Add Products in Cart
 7. Hover over second product and click 'Add to cart'
 8. Click 'View Cart' button
 9. Verify both products are added to Cart
-10. Verify their prices, quantity and total price
 
 Test Case 13: Verify Product quantity in Cart
 1. Launch browser

@@ -1,4 +1,4 @@
-describe(' ', ()=>{
+describe('', ()=>{
     it('', ()=>{
         cy.visit('/');
         cy.request('/').its('status').should('eq', 200)
