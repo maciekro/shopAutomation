@@ -1,3 +1,4 @@
+import { formUser } from "../data-mocks/data-users";
 
 describe('Contact Us Form ', ()=>{
     it('contect', ()=>{
@@ -5,8 +6,9 @@ describe('Contact Us Form ', ()=>{
         cy.request('/').its('status').should('eq', 200)
         cy.get('.shop-menu > .nav > :nth-child(8) > a').click()
         cy.get('div.contact-form > .title').should('be.visible').contains('Get In Touch')
-        cy.get('[data-qa="name"]').type('John')
-        cy.get('[data-qa="email"]').type('johnsmith@example.com')
+        cy.get('[data-qa="name"]').type(formUser.name)
+        cy.get('[data-qa="email"]').type(formUser.email)
+        cy.get('[data-qa="subject"]').type('testujemy formularz')
         cy.get('[data-qa="message"]').type('Lorem ipsum')
 
         const fileInput = cy.get(':nth-child(6) > .form-control');
