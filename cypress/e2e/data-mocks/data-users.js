@@ -39,7 +39,12 @@ const existingEmailUser = {
     email: 'jon_doe1@niepodam.pl'
 }
 
+const reviewUser = {
+    name: 'Andrew',
+    email: 'andrew_user@example.com',
+    message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo sapien, accumsan rutrum maximus nec, dictum ac tellus. Mauris non interdum velit.'
+}
 
 module.exports = { activeUser, incorrectUser, userInOut, registerDeleteUser, formUser,
-     existingEmailUser
+     existingEmailUser, reviewUser
  };
