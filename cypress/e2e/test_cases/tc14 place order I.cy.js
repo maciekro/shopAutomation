@@ -31,11 +31,11 @@ describe('Place Order: Register while Checkout', ()=>{
         cy.get('.shop-menu > .nav > :nth-child(3) > a').click()
         cy.get('.col-sm-6 > .btn').click()
         
-        const slowa = ['John Smith', 'moon', 'Canada'];
+        const words = ['John Smith', 'moon', 'Canada'];
 
 cy.get('#address_delivery').invoke('text').then((text) => {
-  slowa.forEach((slowo) => {
-    expect(text).to.include(slowo);
+  words.forEach((word) => {
+    expect(text).to.include(word);
   });
 });
 cy.get('.form-control').type('Lorem Ipsum')

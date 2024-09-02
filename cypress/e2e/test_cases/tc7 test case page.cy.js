@@ -1,5 +1,5 @@
 describe('Verify Test Cases Page ', ()=>{
-    it('test case page', ()=>{
+    it('visibility of the test case page', ()=>{
         cy.visit('/');
         cy.request('/').its('status').should('eq', 200)
         cy.get('.shop-menu > .nav > :nth-child(5) > a').click()

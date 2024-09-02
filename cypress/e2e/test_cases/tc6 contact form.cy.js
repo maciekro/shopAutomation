@@ -1,7 +1,7 @@
 import { formUser } from "../data-mocks/data-users";
 
 describe('Contact Us Form ', ()=>{
-    it('contect', ()=>{
+    it('contact', ()=>{
         cy.visit('/');
         cy.request('/').its('status').should('eq', 200)
         cy.get('.shop-menu > .nav > :nth-child(8) > a').click()
