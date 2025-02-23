@@ -1,4 +1,4 @@
-import { registerDeleteUser } from "../data-mocks/data-users";
+import { registerDeleteUser } from "../../data-mocks/data-users";
 
 describe('Verify address details in checkout page', ()=>{
     it('Verify address', ()=>{

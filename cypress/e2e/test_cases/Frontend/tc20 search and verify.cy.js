@@ -1,4 +1,4 @@
-import { activeUser } from "../data-mocks/data-users"; //POM user credentials
+import { activeUser } from "../../data-mocks/data-users"; //POM user credentials
 
 describe('Search Products and Verify Cart After Login', ()=>{
     it('search and verify', ()=>{

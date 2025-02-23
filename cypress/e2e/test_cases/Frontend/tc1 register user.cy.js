@@ -1,4 +1,4 @@
-import { registerDeleteUser } from "../data-mocks/data-users";
+import { registerDeleteUser } from "../../data-mocks/data-users";
 
 describe('register user', ()=>{
     it('register user', ()=> {

@@ -1,4 +1,4 @@
-import { existingEmailUser } from "../data-mocks/data-users";
+import { existingEmailUser } from "../../data-mocks/data-users";
 
 describe(' Register User with existing email', ()=>{
     it('existing email', ()=>{

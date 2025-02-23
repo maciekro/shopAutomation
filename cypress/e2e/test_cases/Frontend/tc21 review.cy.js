@@ -1,4 +1,4 @@
-import { reviewUser } from "../data-mocks/data-users";
+import { reviewUser } from "../../data-mocks/data-users";
 
 describe('Add review on product', ()=>{
     it('review', ()=>{

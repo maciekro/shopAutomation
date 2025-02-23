@@ -1,4 +1,4 @@
-import { incorrectUser } from "../data-mocks/data-users"; //POM user credentials
+import { incorrectUser } from "../../data-mocks/data-users"; //POM user credentials
 
 describe(' Login User with incorrect email and password', ()=>{
     it('incorrect login', ()=> {

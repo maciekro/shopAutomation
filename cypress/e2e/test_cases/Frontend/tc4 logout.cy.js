@@ -1,4 +1,4 @@
-import { userInOut } from "../data-mocks/data-users";
+import { userInOut } from "../../data-mocks/data-users";
 
 describe('logout user', ()=>{
     it('logout', ()=>{

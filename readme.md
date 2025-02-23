@@ -1,5 +1,17 @@
-Test Cases:
+# Cypress Frontend & Backend API Test Automation
 
+#  📖Documentation:
+## 📌Contents:
+1. [Key objective](#About)
+2. [Frontend test cases](#Frontend)
+3. [Backend API test cases](#Backend-API)
+
+
+## About
+This project is designed as a practice environment for test automation using Cypress. The main goal is to enhance skills in writing automated tests for both frontend (UI) and backend (API) functionalities. It provides a structured way to explore Cypress capabilities, including handling UI elements, making API requests, asserting responses, and integrating frontend and backend testing.
+
+
+## Frontend
 Test Case 1: Register User
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -304,3 +316,5 @@ Test Case 25: Verify Scroll Up without 'Arrow' button and Scroll Down functional
 5. Verify 'SUBSCRIPTION' is visible
 6. Scroll up page to top
 7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+
+## Backend-API:

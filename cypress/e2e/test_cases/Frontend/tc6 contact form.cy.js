@@ -1,4 +1,4 @@
-import { formUser } from "../data-mocks/data-users";
+import { formUser } from "../../data-mocks/data-users";
 
 describe('Contact Us Form ', ()=>{
     it('contact', ()=>{
