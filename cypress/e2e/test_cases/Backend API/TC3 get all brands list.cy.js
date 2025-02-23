@@ -9,7 +9,7 @@ describe('Backend API Tests - Get All Brands List', () => {
             if (typeof responseBody === 'string') {
                 responseBody = JSON.parse(responseBody);
             }
-            cy.log(responseBody); // Logowanie poprawnej odpowiedzi API
+            cy.log(responseBody);
             expect(response.status).to.eq(200);
             expect(responseBody).to.be.an('object'); //check if 'responseBody' is json object
             expect(responseBody).to.have.property('responseCode', 200);
